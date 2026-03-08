@@ -1,0 +1,10 @@
+{
+  "name": "machinery-diagnosis-lambda",
+  "version": "1.0.0",
+  "description": "Lambda function for agricultural machinery diagnosis with Bedrock",
+  "main": "diagnostic-handler.js",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.490.0",
+    "@aws-sdk/client-bedrock-agent-runtime": "^3.490.0"
+  }
+}
